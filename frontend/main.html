@@ -3,22 +3,29 @@
 <head>
     <meta charset="utf-8">
     <title>ArmAcrossTheWorld</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>ArmAcrossTheWorld</h1>
-    <div class="controlButtons">
-     <div class="row">
-        <button id="helloBtn" onclick="press('ArrowUp')">Up</button>
-     </div>
-    <div class="row">
-        <button id="helloBtn" onclick="press('ArrowLeft')">Left</button>
-        <button id="helloBtn" onclick="press('ArrowRight')">Right</button>
+    <div class="container">
+        <h1>ArmAcrossThe<span class="accentText">World</span></h1>
+        <div class="controlButtons">
+        <div class="row">
+            <button onclick="press('ArrowUp')">Up</button>
+        </div>
+        <div class="row">
+            <button onclick="press('ArrowLeft')">Left</button>
+            <button onclick="press('ArrowRight')">Right</button>
+        </div>
+        <div class="row">   
+            <button onclick="press('ArrowDown')">Down</button>
+        </div>
+        </div>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
     </div>
-    <div class="row">   
-        <button id="helloBtn" onclick="press('ArrowDown')">Down</button>
-    </div>
-    </div>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="main.css">
+
 </body>
 </html>

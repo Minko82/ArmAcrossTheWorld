@@ -1,8 +1,39 @@
-h1{
-    color:red;
+body {
+  background-color: #B7C2C2; 
+  font-family: "Pixelify Sans", sans-serif;
+  height: 100vh; 
+
+
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  padding: 80px 40px;        /* top/bottom left/right */
+  box-sizing: border-box;
+  margin: 0;                 /* remove default browser margin */
 }
+
+h1{
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.accentText{
+    color: #00aaff;
+    font-weight: 400;
+    font-size: 36px;
+}
+
 .controlButtons{
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+.container {
+  width: 80%;
+  height: 70%;
+  margin: auto; /* top right bottom left */
+  padding: 50px;
+  background-color: #D2DADA;
+  border-radius: 8px;
 }
