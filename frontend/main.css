@@ -1,0 +1,8 @@
+h1{
+    color:red;
+}
+.controlButtons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
